@@ -1,0 +1,22 @@
+#
+# CS6378.002.F14
+# 
+# Sample configuration file for project 2
+#
+# As usual, anything following a "#" is a comment
+#
+# Number of nodes
+10
+
+# Node definitions in the following format:
+# Host	Port	Quorum
+dc41 12321 1 2 3 4 5 6
+dc42 23432 1 2 3 4 5 7
+dc43 34543 1 2 3 4 5 8
+dc44 45654 1 2 3 4 5 9
+dc45 56765 1 2 3 4 5 10
+dc41 10101 6 7 8 9 10
+dc42 20202 6 7 8 9 10
+dc43 30303 6 7 8 9 10
+dc44 40404 6 7 8 9 10
+dc45 50505 6 7 8 9 10
